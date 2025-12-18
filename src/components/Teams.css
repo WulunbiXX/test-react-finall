@@ -1,0 +1,114 @@
+.teams-section {
+    padding: 8rem 6rem;
+    background-color: #52677d;
+    border-radius: 13px;
+}
+
+.teams-title{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 2rem
+}
+
+.teams-title .line{
+    border: 2px solid #e1b531;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.teams-title h1 {
+    font-size: 3rem;
+    color: #fff;
+    margin: 0;
+}
+
+.first-des {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    gap: 10px;
+}
+
+.reverse-des {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 2rem;
+    gap: 10px;
+}
+
+.image {
+    position: relative;
+    width: 60%;
+}
+
+.image img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: -1px 1px 62px -18px;
+}
+
+.des-text {
+    width: 50%;
+    border-radius: 10px;
+    background-color: #415163;
+    color: #ffff;
+    text-align: start;
+    padding: 3rem;
+}
+
+.des-text h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: Graphik;
+}
+
+.des-text p {
+    margin-bottom: 5rem;
+}
+
+.des-text .clickBtn {
+    background-color: #fff;
+    color: #222;
+    text-decoration: none;
+    border-radius: 15px;
+    padding: 7px;
+    align-items: center;
+}
+
+.clickBtn .blcakarrow {
+    background-color: #222;
+    color: #fff;
+    border-radius: 99em;
+    padding: 3px 4px;
+    margin-left: 7px;
+}
+
+@media screen and (max-width: 850px) {
+    .teams-section {
+        /* margin: 4rem 2rem; */
+    }
+
+    .first-des {
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .des-text {
+        width: 100%;
+
+    }
+
+    .reverse-des {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .image {
+        width: 100%;
+        margin: 0.5rem 0;
+    }
+}

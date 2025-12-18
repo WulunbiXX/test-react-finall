@@ -1,0 +1,117 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.NavbarItems {
+    background-color: #090f15;
+    color: #ffff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    width: 95%;
+    height: 80px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 999;
+}
+
+.logo {
+    justify-self: start;
+    cursor: pointer;
+}
+
+.logo a{
+    text-decoration: none;
+    color: #ffff;
+}
+
+.fa-react {
+    margin-left: 0.5rem;
+    font-size: 2rem;
+    color: #61DBFB;
+}
+
+.Nav-menu {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.nav-links {
+    color: #4a5c8a;
+    text-decoration: none;
+    white-space: nowrap;
+    padding: 10px 20px;
+}
+
+.nav-links:hover {
+    background-color: #e2d8cc;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.nav-links i {
+    margin-right: 8px;
+}
+
+.Menu-icon {
+    display: none;
+}
+
+@media screen and (max-width: 850px) {
+    .NavbarItems {
+        z-index: 999;
+    }
+
+    .Nav-menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: stretch;
+        background-color: rgba(249, 244, 244, 0.25);
+        border-radius: 13px;
+        box-shadow: 0 8px 32px 0 rgb(31, 38, 135, 0.37);
+        backdrop-filter: blur(4px);
+        width: 100%;
+        height: auto;
+        position: absolute;
+        top: 0;
+        left: -110%;
+        padding: 80px 0 30px 0;
+        margin: 0;
+        z-index: -1;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .Nav-menu.active {
+        left: 0%;
+    }
+
+    .nav-links {
+        display: block;
+        widows: 100%;
+        padding: 2rem 0;
+        color: #4a5c8a;
+    }
+
+    .nav-links:hover {
+        background-color: #B3b7ba;
+        border-radius: 4px;
+        transition: all 0.3s ease;
+    }
+
+    .Menu-icon{
+        display: block;
+    }
+}

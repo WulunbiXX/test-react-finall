@@ -1,0 +1,65 @@
+.Schedule {
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.line {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(148, 153, 158);
+}
+
+.finall {
+    /* display: flex; */
+    width: 45rem;
+}
+
+.board-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #49596b;
+    border: 1px solid #a4a3a3;
+    color: #fff;
+}
+
+.teams-finall {
+    width: 20%;
+}
+
+.teams-finall img {
+    width: 100%;
+}
+
+.score-board{
+    position: relative;
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.1rem;
+}
+
+
+.score-board a{
+    border: 1px solid;
+    background-color: #fff;
+    font-size: 1.3rem;
+    text-decoration: none;
+    border-radius: 15px;
+    padding: 0 1rem;
+}
+
+.board-end {
+    display: flex;
+}
+
+.board-end button {
+    width: 100%;
+}
+
+.next-game {
+    width: 22.5%;
+}
