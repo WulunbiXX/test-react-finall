@@ -9,7 +9,7 @@ function Navbar() {
         { title: 'About', url: '/about', icon: 'fa-solid fa-circle-info', cName: 'nav-links', key: 1 },
         { title: 'Services', url: '/services', icon: 'fa-solid fa-briefcase', cName: 'nav-links',key: 2 },
         { title: 'Contact', url: '/contact', icon: 'fa-solid fa-address-book', cName: 'nav-links', key: 3 },
-        { title: 'Sign up', url: '/Sign', cName: 'nav-links'}
+        { title: 'Sign up', url: '/SignUp', cName: 'nav-links'}
     ])
 
     const [clicked, SetClicked] = useState(false)

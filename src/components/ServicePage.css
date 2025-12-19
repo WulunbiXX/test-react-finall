@@ -171,51 +171,57 @@
     padding: 5px;
 }
 
-.other-wrap{
+.other-wrap {
     margin: 5rem 1rem;
+    background-color: #090f15;
+    border-radius: 20px;
+    padding: 1rem;
 }
 
-.other-wrap h1{
+.other-wrap h1 {
+    width: 100%;
+    text-align: start;
     font-size: 3rem;
     padding: 2rem;
+    color: #e1b531;;
 }
 
-.other-container{
+.other-container {
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #acaeb1;
     border-radius: 20px;
-    height: 600px;
-    padding: 2rem 5rem;
+    height: 700px;
+    padding: 2rem;
 }
 
-.other-container img{
+.other-container img {
     width: 50%;
     border-radius: 20px;
 }
 
-.other-text{
+.other-text {
     text-align: start;
-    padding: 2rem 5rem;
+    padding: 4rem;
 }
 
-.other-text h2{
+.other-text h2 {
     font-size: 2.5rem;
 }
 
-.other-text p{
-    font-size: 1.2rem;
+.other-text p {
+    font-size: 1.4rem;
     margin: 3rem 0 4rem 0;
 }
 
-.other_btn{
+.other_btn {
     text-decoration: none;
     text-align: center;
 }
 
-.other_btn p{
+.other_btn p {
     width: 200px;
     padding: 1rem;
     color: #222;
@@ -302,5 +308,55 @@
     .name h3 {
         margin-right: 20px;
         margin-bottom: 0;
+    }
+
+    /*********** other ***********/
+
+    .other-wrap {
+        margin: 5rem 1rem;
+    }
+
+    .other-wrap h1 {
+        text-align: start;
+        font-size: 2.5rem;
+        padding: 2rem;
+    }
+
+    .other-container {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    .other-container img {
+        width: 80%;
+        border-radius: 20px;
+    }
+
+    .other-text {
+        text-align: center;
+        padding: 1rem;
+    }
+
+    .other-text h2 {
+        font-size: 2.5rem;
+    }
+
+    .other-text p {
+        text-align: start;
+    }
+
+    .other_btn {
+        text-decoration: none;
+        text-align: center;
+    }
+
+    .other_btn p {
+        text-align: center;
+        width: 200px;
+        padding: 1rem;
+        color: #222;
+        background-color: #fff;
+        border-radius: 25px;
     }
 }

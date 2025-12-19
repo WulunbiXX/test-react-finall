@@ -1,0 +1,75 @@
+.sign-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.sign-wrapper h1 {
+    font-size: 3rem;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.sign-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+}
+
+.form {
+    width: 100%;
+}
+
+.sign-form p {
+    font-size: 1.2rem;
+}
+
+.sign-form input {
+    width: 100%;
+    height: 70px;
+}
+
+.forgot {
+    width: 100%;
+    text-align: end;
+    color: #52677d;
+}
+
+.forgot h3 {
+    margin: 0;
+}
+
+.or-line {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    gap: 10px;
+    margin: 20px;
+}
+
+.or-line div {
+    border: 1px solid #222;
+    width: 100%;
+}
+
+.google {
+    width: 50%;
+    text-align: center;
+    background-color: #f0f0f0;
+    margin-bottom: 30px;
+    border-radius: 14px;
+    border: 1px solid #222;
+    text-decoration: none;
+    color: #222;
+}
+
+.google p {
+    font-size: 1rem;
+}
+
+.Submit {
+    background-color: #52677d;
+    color: #fff;
+    padding: 15px;
+    font-size: 1rem;
+}

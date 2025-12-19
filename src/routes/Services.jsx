@@ -1,6 +1,6 @@
 import ContectImg from "../assets/Russ.jpg"
 import HomePage from "../components/HomePage";
-import Navbar from "../components/navbar";
+import Navbar from "../components/Navbar";
 import Footer from "../components/Footer"
 import ServicePage from "../components/ServicePage";
 

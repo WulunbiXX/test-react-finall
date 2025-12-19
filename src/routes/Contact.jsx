@@ -1,6 +1,6 @@
 import sub1 from "../assets/sub1.jpg"
 import HomePage from "../components/HomePage";
-import Navbar from "../components/navbar";
+import Navbar from "../components/Navbar";
 import Footer from "../components/Footer"
 import SubscribePage from "../components/SubscribePage"
 

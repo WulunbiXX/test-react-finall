@@ -1,5 +1,5 @@
 import HomePage from "../components/HomePage";
-import Navbar from "../components/navbar";
+import Navbar from "../components/Navbar";
 import AboutImg from "../assets/about.jpg"
 import Footer from "../components/Footer"
 import AbotPage from "../components/AboutPage"

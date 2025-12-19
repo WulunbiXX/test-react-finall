@@ -11,7 +11,7 @@ function MyComponent() {
 
     const fetchData = async () => {
         try {
-            const response = await fetch('https://newsdata.io/api/1/latest?apikey=pub_d9020dda2d6d4cfdbdd34f79f0725d6f&qInTitle=Lakers');
+            const response = await fetch('https://newsdata.io/api/1/latest?apikey=pub_d9020dda2d6d4cfdbdd34f79f0725d6f&q=Nba&country=tw&language=zh');
             if (!response.ok) {
                 throw new Error('Network response was not ok');
             }
@@ -30,17 +30,20 @@ function MyComponent() {
                     <h1>Team News</h1>
                     <p>Follow us for the latest NBA news</p>
                 </div>
-                <button>
+                <button href="#">
                     See More News
                 </button>
             </div>
             {data ? (
                 <div className="main-news">
                     {data.results.slice(0, 8).map((item) => (
-                        <div key={item.article_id} className="news-card">
+                        <div key={item.article_id} className="news-card"
+                            onClick={() => {
+                                window.open(item.link, "_blank");
+                            }}>
                             <img src={item.image_url} />
                             <h2>{item.title.length > 30 ? item.title.slice(0, 30) + "..." : item.title}</h2>
-                            <p>{item.description.length > 120 ? item.description.slice(0, 120) + "..." : item.description}</p>
+                            <p>{item.description.length > 120 ? item.description.slice(0, 100) + "..." : item.description}</p>
                         </div>
                     ))}
                 </div>

@@ -1,5 +1,5 @@
 import HomePage from "../components/HomePage";
-import Navbar from "../components/navbar";
+import Navbar from "../components/Navbar";
 import ScheduleBoard from "../components/ScheduleBoard"
 import HomeNews from "../components/HomeNews"
 import Teams from "../components/Teams"

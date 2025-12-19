@@ -11,7 +11,7 @@ const TeamsData = (data) => {
             <div className="des-text">
                 <h2>{data.heading}</h2>
                 <p>{data.text}</p>
-                <a href="/" className="clickBtn">
+                <a href="/test-react-finall/services" className="clickBtn">
                     {data.button}
                     <a className="blcakarrow">
                         {data.arrow}

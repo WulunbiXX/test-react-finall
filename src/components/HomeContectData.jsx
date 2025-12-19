@@ -12,7 +12,7 @@ const HomeContextData = (news) => {
             <div className="t-text">
                 <h2>{news.heading}</h2>
                 <p>{news.text}</p>
-                <a href="#">Read More</a>
+                <a href="/test-react-finall/about">Read More</a>
             </div>
             <div className="news-additional">
                 <div className="news-line"></div>

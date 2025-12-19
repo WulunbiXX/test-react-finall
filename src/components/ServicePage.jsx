@@ -3,7 +3,7 @@ import Laker_Doncic from "../assets/Laker_Doncic.jpg"
 import Laker_Lebron from "../assets/Laker_Lebron.jpg"
 import Laker_Reaves from "../assets/Laker_Reaves.jpg"
 import Laker_Rui from "../assets/Laker_Rui.jpg"
-import miyeon from "../assets/miyeon.jpg"
+import JJ from "../assets/JJ.jpg"
 
 function ServicePage(props) {
 
@@ -98,9 +98,9 @@ function ServicePage(props) {
             </div>
 
             <div className="other-wrap">
-                <h1>Get more team information</h1>
+                <h1>Team Information</h1>
                 <div className="other-container">
-                    <img src={miyeon} />
+                    <img src={JJ} />
                     <div className="other-text">
                         <h2>Coaching Staff</h2>
                         <p>JJ Redick enters his second season as head coach of the Los Angeles Lakers. The 41-year-old was hired June 20, 2024, becoming the 29th head coach in franchise history and the 25th of the Los Angeles era.
