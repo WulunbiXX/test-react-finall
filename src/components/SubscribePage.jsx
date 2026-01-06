@@ -23,26 +23,28 @@ function SubscribePage(props) {
                     <div className="user-section">
                         <h1>Contact to us</h1>
                         <p>Enter your user information</p>
-                        <div className="contact">
-                            <i class="fa-solid fa-phone-volume fa-2xl"></i>
-                            <div className="contact-inf">
-                                <p>Contact number</p>
-                                <p>012345678</p>
+                        <div className="contacts-info">
+                            <div className="contact">
+                                <i class="fa-solid fa-phone-volume fa-2xl"></i>
+                                <div className="contact-inf">
+                                    <p>Contact number</p>
+                                    <p>012345678</p>
+                                </div>
                             </div>
-                        </div>
-                        <div className="contact">
-                            <i class="fa-brands fa-teamspeak fa-2xl"></i>
-                            <div className="contact-inf">
-                                <p>customer service</p>
-                                <p>+001 123 4567</p>
+                            <div className="contact">
+                                <i class="fa-brands fa-teamspeak fa-2xl"></i>
+                                <div className="contact-inf">
+                                    <p>customer service</p>
+                                    <p>+001 123 4567</p>
+                                </div>
                             </div>
-                        </div>
-                        <div className="contact">
-                            <i class="fa-regular fa-message fa-2xl"></i>
-                            <div className="contact-inf">
-                                <p>private message</p>
-                                <p>kennywu@gmail.com</p>
-                            </div>                       
+                            <div className="contact">
+                                <i class="fa-regular fa-message fa-2xl"></i>
+                                <div className="contact-inf">
+                                    <p>private message</p>
+                                    <p>kennywu@gmail.com</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <form>

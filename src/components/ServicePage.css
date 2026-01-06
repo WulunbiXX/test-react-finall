@@ -13,12 +13,14 @@
 }
 
 .decorative-wrap {
-    /* background-color: #f9ca24; */
+    background-image: url('https://cdn.nba.com/teams/uploads/sites/1610612747/2025/08/2526_lal_mktg_schedule_promo_webarticle_1130x635_lo.jpg');
+    height: 100vh;
     display: block;
     padding: 2rem 2rem;
-    /* border: 1px solid #222; */
     border-radius: 12px;
     width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .decorative-wrap img {
@@ -26,7 +28,7 @@
     border-radius: 12px;
 }
 
-.history {
+/* .history {
     position: absolute;
     bottom: -250px;
     height: 80px;
@@ -38,7 +40,7 @@
     opacity: .5;
     background-color: #f9ca24;
     color: #000000;
-}
+} */
 
 .decorative-text {
     position: relative;
@@ -48,7 +50,7 @@
     background-color: #090f15;
     color: #fff;
     width: 100%;
-    padding: 0 1rem;
+    padding: 2rem 1rem;
 }
 
 .decorative-text h2 {
@@ -183,7 +185,8 @@
     text-align: start;
     font-size: 3rem;
     padding: 2rem;
-    color: #e1b531;;
+    color: #e1b531;
+    ;
 }
 
 .other-container {
@@ -229,8 +232,14 @@
     border-radius: 25px;
 }
 
+@media screen and (max-width: 1024px) {
+    .decorative-wrap {
+        padding: 0;
+        width: 100%;
+        height: 50vh;
+        background-position: 20% 25%;
+    }
 
-@media screen and (max-width: 970px) {
     .service-wrap h1 {
         font-size: 4rem;
     }
@@ -238,16 +247,11 @@
     .decorative-wrap {
         padding: 0;
         width: 100%;
-    }
-
-    .decorative-wrap img {
-        height: 500px;
-        /* padding: 50px; */
+        height: 50vh;
     }
 
     .history {
-        bottom: -60px;
-        left: 0;
+        display: none;
     }
 
     .decorative-text {
@@ -300,6 +304,10 @@
         /* padding: 2rem 2rem; */
     }
 
+    .player-card img {
+        height: 500px;
+    }
+
     .player-card .name {
         font-size: 1.3rem;
         /* padding: 0 2rem; */
@@ -322,20 +330,14 @@
         padding: 2rem;
     }
 
-    .other-container {
-        flex-direction: column;
-        align-items: center;
-        height: auto;
-    }
-
     .other-container img {
-        width: 80%;
+        width: 45%;
         border-radius: 20px;
     }
 
     .other-text {
         text-align: center;
-        padding: 1rem;
+        padding: 3rem;
     }
 
     .other-text h2 {
@@ -353,10 +355,164 @@
 
     .other_btn p {
         text-align: center;
-        width: 200px;
-        padding: 1rem;
-        color: #222;
-        background-color: #fff;
-        border-radius: 25px;
+        width: 100%;
     }
+}
+
+@media screen and (max-width: 770px) {
+    .decorative-wrap {
+        background-position: 20% 25%;
+    }
+
+    .decorative-text h3{
+        font-size: 1rem;
+    }
+
+    /*********** other ***********/
+    .other-container {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        padding: 1rem;
+    }
+
+    .other-container img {
+        width: 100%;
+        border-radius: 20px;
+    }
+}
+
+
+@media screen and (max-width: 430px) {
+    .service-wrap h1 {
+        font-size: 2.5rem;
+    }
+
+    .decorative-wrap {
+        padding: 0;
+        width: 100%;
+        height: 70vh;
+        background-position: 20% 25%;
+    }
+
+    .decorative-wrap img {
+        display: none;
+    }
+
+    .history {
+        display: none;
+    }
+
+    .decorative-text {
+        flex-direction: column;
+        height: 200px;
+        padding: 0 1rem;
+    }
+
+    .decorative-text h2 {
+        font-size: 1.5rem;
+        line-height: 2rem;
+        text-align: center;
+    }
+
+    .decorative-text div {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        border: 1px solid #fff;
+        border-radius: 10px;
+    }
+
+    .player-wrap {
+        margin: 3rem 0rem;
+    }
+
+    .player-top {
+        height: 150px;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem;
+    }
+
+    .player-top h2 {
+        font-size: 2rem;
+    }
+
+    .player-top button {
+        padding: 0.5rem;
+    }
+
+    .player-container {
+        flex-wrap: wrap;
+        padding: 1rem;
+    }
+
+    .player-card {
+        width: 100%;
+        /* padding: 2rem 2rem; */
+    }
+
+    .player-card button {
+        margin-bottom: 1rem;
+        width: 100%;
+    }
+
+    .player-card img {
+        height: 400px;
+    }
+
+    .player-card .name {
+        font-size: 1.3rem;
+        /* padding: 0 2rem; */
+    }
+
+    .name h3 {
+        margin-right: 20px;
+        margin-bottom: 0;
+    }
+
+    /*********** other ***********/
+
+    .other-wrap {
+        margin: 5rem 1rem;
+    }
+
+    .other-wrap h1 {
+        text-align: start;
+        font-size: 2rem;
+        padding: 1rem;
+    }
+
+    .other-container {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        padding: 1rem;
+    }
+
+    .other-container img {
+        width: 100%;
+        border-radius: 20px;
+    }
+
+    .other-text {
+        text-align: center;
+        padding: 0rem;
+    }
+
+    .other-text h2 {
+        font-size: 2rem;
+    }
+
+    .other-text p {
+        text-align: start;
+        font-size: 0.7rem;
+    }
+
+    .other_btn p {
+        text-align: center;
+        width: 100%;
+    }
+
 }

@@ -25,7 +25,7 @@
     text-align: start;
 }
 
-.titleHero a:hover{
+.titleHero a:hover {
     color: #ffff;
     cursor: pointer;
 }
@@ -37,10 +37,93 @@
     overflow: hidden;
 }
 
-.titleContext div{
+.titleContext div {
     border: 1px solid;
 }
 
 /* .context h1, p{
     text-align: start;
 } */
+
+@media screen and (max-width: 1024px) {
+    .wrapper-mid {
+        height: 80vh;
+    }
+
+    .wrapper-text {
+        top: 40%;
+        padding: 0 15%;
+    }
+
+    .titleHero {
+        display: flex;
+        position: absolute;
+        width: 100%;
+        top: 45%;
+        z-index: 99;
+        color: #ffff;
+        justify-content: space-between;
+        padding: 0 10%;
+    }
+
+    .titleHero a {
+        color: rgb(153 153 153);
+        /* margin-right: 3rem; */
+        padding: 0 2rem;
+        text-align: start;
+    }
+
+    .titleHero a:hover {
+        color: #ffff;
+        cursor: pointer;
+    }
+
+    .titleContext p {
+        font-size: 1.4rem;
+        font-weight: 700;
+        line-height: 1.25;
+        overflow: hidden;
+    }
+
+    .titleContext div {
+        border: 1px solid;
+    }
+}
+
+@media screen and (max-width: 430px){
+    .wrapper-mid {
+        height: 70vh;
+    }
+
+    .wrapper-text {
+        top: 40%;
+        padding: 0 15%;
+    }
+
+    .titleHero {
+        display: none;
+    }
+
+    .titleHero a {
+        color: rgb(153 153 153);
+        /* margin-right: 3rem; */
+        padding: 0 2rem;
+        text-align: start;
+    }
+
+    .titleHero a:hover {
+        color: #ffff;
+        cursor: pointer;
+    }
+
+    .titleContext p {
+        font-size: 1.4rem;
+        font-weight: 700;
+        line-height: 1.25;
+        overflow: hidden;
+    }
+
+    .titleContext div {
+        border: 1px solid;
+    }   
+}

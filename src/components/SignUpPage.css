@@ -73,3 +73,59 @@
     padding: 15px;
     font-size: 1rem;
 }
+
+@media screen and (max-width: 1024px) {
+    .google{
+        width: 80%;
+    }
+    .sign-form {
+        padding: 50px 20px;
+    }
+
+    .or-line {
+        width: 100%;
+    }
+
+    .sign-wrapper h1 {
+        font-size: 2.5rem;
+    }
+
+    .sign-form p {
+        font-size: 1rem;
+    }
+
+    .Submit {
+        font-size: 0.9rem;
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .sign-image {
+        display: none;
+    }
+
+    .sign-form {
+        padding: 100px 10px;
+    }
+
+    .sign-form input{
+        height: 50px;
+    }
+
+    .sign-wrapper h1 {
+        font-size: 2rem;
+    }
+
+    .forgot{
+        font-size: 0.9rem;
+    }
+
+    .google {
+        width: 100%;
+    }
+
+    .Submit {
+        width: 100%;
+    }
+}

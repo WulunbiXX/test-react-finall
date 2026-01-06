@@ -105,7 +105,7 @@
     font-size: 1.2rem;
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 1024px) {
     .context {
         padding: 5rem 0;
     }
@@ -115,11 +115,11 @@
         padding: 0 2rem;
     }
 
-    .news-title  div{
+    .news-title div {
         width: 100%;
     }
 
-    .news-title .line{
+    .news-title .line {
         width: 100%;
     }
 
@@ -136,7 +136,7 @@
     .news-board {
         width: 100%;
         text-align: start;
-        
+
     }
 
     .t-image {
@@ -160,7 +160,7 @@
     }
 
     .t-text h2 {
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
 
     .t-text p {
@@ -191,5 +191,57 @@
 
     .news-additional p {
         display: none;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .context {
+        padding: 3rem 0;
+    }
+
+    .new-more {
+        padding: 1rem 3rem;
+    }
+
+    .context h1 {
+        font-size: 1.5rem;
+    }
+
+    .news-container {
+        padding: 1.5rem 0rem;
+    }
+
+    .news-board {
+        width: 100%;
+        padding: 1rem;
+    }
+
+
+    .t-image {
+        width: 50%;
+    }
+
+    .t-image img {
+        width: 100%;
+        height: 300px;
+    }
+
+    .news-board:hover img {
+        transform: scale(1.2);
+    }
+
+    .t-text {
+        width: 50%;
+        color: #fff;
+        padding: 1.5rem;
+    }
+
+    .t-text h2 {
+        font-size: 1.3rem;
+    }
+
+    .t-text p {
+        font-size: 0.8rem;
+        margin-bottom: 3rem;
     }
 }

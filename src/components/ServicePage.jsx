@@ -13,16 +13,16 @@ function ServicePage(props) {
                 <h1>Lake Show Squad</h1>
                 <div className="service-line"></div>
                 <div className="decorative-wrap">
-                    <img src="https://cdn.nba.com/teams/uploads/sites/1610612747/2025/08/2526_lal_mktg_schedule_promo_webarticle_1130x635_lo.jpg" />
-                    <div className="history"><p>history</p></div>
-                    <div className="decorative-text">
-                        <h2>17x Champions, get to know your Lakers team.</h2>
-                        <div>
-                            <h3>12 Championships</h3>
-                            <h3>53 Playoff Appearances</h3>
-                            <h3>champion player</h3>
-                        </div>
-                    </div>
+                    {/* <img src="https://cdn.nba.com/teams/uploads/sites/1610612747/2025/08/2526_lal_mktg_schedule_promo_webarticle_1130x635_lo.jpg" /> */}
+                    {/* <div className="history"><p>history</p></div> */}
+                </div>
+            </div>
+            <div className="decorative-text">
+                <h2>17x Champions, get to know your Lakers team.</h2>
+                <div>
+                    <h3>12 Championships</h3>
+                    <h3>53 Playoff Appearances</h3>
+                    <h3>champion player</h3>
                 </div>
             </div>
             <div className="player-wrap">

@@ -86,9 +86,9 @@
     margin-left: 7px;
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 1024px) {
     .teams-section {
-        /* margin: 4rem 2rem; */
+        padding: 4rem 2rem;
     }
 
     .first-des {
@@ -110,5 +110,52 @@
     .image {
         width: 100%;
         margin: 0.5rem 0;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .teams-section {
+        margin: 0;
+        padding: 4rem 0rem;
+        border-radius: 0%;
+    }
+
+    .first-des {
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        padding: 0 1rem;
+    }
+
+    .des-text {
+        width: 100%;
+
+    }
+
+    .reverse-des {
+        display: flex;
+        flex-direction: column;
+        padding: 0 1rem;
+    }
+
+    .image {
+        width: 100%;
+        margin: 0.5rem 0;
+    }
+
+    .image img{
+        height: 250px;
+    }
+    
+    .des-text {
+        padding: 2rem;
+    }
+
+    .des-text h2 {
+        font-size: 1.8rem;
+    }
+
+    .des-text p {
+        margin-bottom: 3rem;
     }
 }
